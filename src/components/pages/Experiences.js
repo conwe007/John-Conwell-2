@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 class Experiences extends Component {
     render() {
         return (
-            <div className="Experiences">
-    
+            <div>
+                
             </div>
         );
     }
