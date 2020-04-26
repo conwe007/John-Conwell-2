@@ -77,7 +77,7 @@ class App extends Component {
                 imageUrl: "/images/thumbnail_personal_website.png",
                 imageAlt: "Personal Website Thumbnail",
                 title: "Personal Website",
-                link: "https://github.com/conwe007/John-Conwell-2",
+                link: "github.com/conwe007/John-Conwell-2",
                 description: "The website you are reading right now! This website is my second attempt at creating a full-fledged website, this time using ReactJS. Compared to the first attempt, this website is more responsive, uses better styling tools (tailwind), and is easier to maintain and update.",
                 tags: ["ReactJS", "Tailwind", "WebDev"],
                 isOpen: false
