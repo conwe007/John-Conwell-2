@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 
 class Home extends Component {
     
@@ -50,11 +49,6 @@ class Home extends Component {
             </div>
         );
     }
-}
-
-// PropTypes
-Home.propTypes = {
-
 }
 
 export default Home;

@@ -1,16 +1,22 @@
 import React, { Component } from 'react';
-import ProjectCard from '../ProjectCard'
+import ProjectCard from '../ProjectCard';
+
 import PropTypes from 'prop-types';
 
 class Projects extends Component {
     render() {
         return (
             <div className="bg-gray-100 min-h-screen flex flex-wrap justify-center">
-                {this.props.projects.map(project => (
-                    <ProjectCard
-                        project={project}
-                    />
-                ))}
+                {this.props.projects.map(
+                    (project, index) => (
+                        <ProjectCard
+                            key={project.id}
+                            project={project}
+                            openProject={this.props.openProject}
+                            closeProject={this.props.closeProject}
+                        />
+                    ))
+                }
             </div>
         );
     }

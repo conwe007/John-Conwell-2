@@ -13,7 +13,7 @@ class Experiences extends Component {
 
 // PropTypes
 Experiences.propTypes = {
-
+    experiences: PropTypes.array.isRequired
 }
 
 export default Experiences;

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
-import { Link, withRouter } from 'react-router-dom';
-import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
 import { ReactComponent as Menu } from '../../assets/zondicons/menu.svg';
 
 class Navigation extends Component {
@@ -36,11 +35,6 @@ class Navigation extends Component {
             </header>
         );
     }
-}
-
-// PropTypes
-Navigation.propTypes = {
-
 }
 
 export default Navigation;
