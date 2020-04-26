@@ -11,7 +11,7 @@ class ProjectCard extends Component {
         const {id, imageUrl, imageAlt, title, link, description, tags, isOpen} = this.props.project;
 
         return (
-            <div className={isOpen ? "right-0 left-0 top-0 sm:top-auto fixed flex flex-col md:flex-row w-auto h-auto m-3 bg-white border-4 border-teal-600 rounded-lg overflow-hidden" : "flex flex-col w-300 h-480 m-4 bg-white border rounded-lg overflow-hidden"}>
+            <div className={isOpen ? "right-0 left-0 top-0 sm:top-auto fixed flex flex-col md:flex-row w-auto h-auto m-3 bg-white border-4 border-teal-600 rounded-lg overflow-hidden" : "flex flex-col w-300 h-460 m-4 bg-white border rounded-lg overflow-hidden"}>
                 <img
                     className="max-w-260 max-h-260 border m-4"
                     src={imageUrl}
